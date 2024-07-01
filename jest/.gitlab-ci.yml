@@ -1,0 +1,9 @@
+image: node:22-alpine3.19
+
+stages:
+  - test
+
+jobs:
+  stage: test
+  script:
+  - yarn test
