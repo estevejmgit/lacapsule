@@ -1,0 +1,21 @@
+{
+  "name": "covidtracker",
+  "version": "1.0.0",
+  "description": "Suivi des indicateurs de l'épidémie de Covid-19 en France",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "AGPL-3.0-or-later",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "chart.js": "^2.9.4",
+    "jquery": "^3.6.0",
+    "justgage": "^1.4.2",
+    "popper.js": "^1.16.1",
+    "select2": "^4.1.0-rc.0",
+    "startbootstrap-sb-admin-2": "^4.1.3"
+  }
+}

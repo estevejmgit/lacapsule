@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: motd
+  labels:
+    app: motd-alp
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: motd-alp
+  template:
+    metadata:
+      labels:
+        app: motd-alp
+    spec:
+      containers:
+      - name: motd-alp
+        image: alpine:latest
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 80
+        env:
+        - name: MESSAGE
+          valueFrom:
+            configMapKeyRef:
+              name: motd-config
+              key: MESSAGE
+      

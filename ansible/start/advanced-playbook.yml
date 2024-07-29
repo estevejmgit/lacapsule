@@ -1,0 +1,58 @@
+- name: create and config nginx
+  hosts: linode
+  become: yes
+
+  vars:
+    # user_name: nginx
+    # user_password: ihateapache
+    ssh_key: "{{ lookup('file', '~/.ssh/test-ansible.pub') }}"
+
+  tasks:
+    - name: Create nginx user with password
+      ansible.builtin.user:
+        name: "{{ linux_username }}"
+        password: "{{ linux_password | password_hash('sha512') }}"
+        state: present
+        groups: sudo
+        shell: /bin/bash
+        append: yes
+
+    - name: Create .ssh directory
+      ansible.builtin.file:
+        path: "/home/{{ linux_username }}/.ssh"
+        state: directory
+        owner: "{{ linux_username }}"
+        group: "{{ linux_username }}"
+        mode: '0700'
+
+    - name: Add SSH key to authorized_keys
+      ansible.builtin.copy:
+        content: "{{ ssh_key }}"
+        dest: "/home/{{ linux_username }}/.ssh/authorized_keys"
+        owner: "{{ linux_username }}"
+        group: "{{ linux_username }}"
+        mode: '0600'
+
+    - name: Disable SSH password authentication
+      ansible.builtin.lineinfile:
+        path: /etc/ssh/sshd_config
+        regexp: '^#?PasswordAuthentication'
+        line: 'PasswordAuthentication no'
+        state: present
+
+    - name: Restart SSH service
+      ansible.builtin.service:
+        name: sshd
+        state: restarted
+
+    - name: Update apt cache (Debian/Ubuntu)
+      ansible.builtin.apt:
+        update_cache: yes
+
+    - name: install nginx
+      apt: name=nginx state=latest
+
+    - name: start nginx
+      service:
+          name: nginx
+          state: started

@@ -1,0 +1,11 @@
+stages:
+  - test
+
+job:
+  stage: test
+  script:
+    - echo "Author would be:"
+    - echo $CI_COMMIT_AUTHOR
+    - echo "Modified files:"
+    - git diff-tree -r --name-only $CI_COMMIT_BEFORE_SHA $CI_COMMIT_SHA
+    - ./checkAuthor.sh "$CI_COMMIT_AUTHOR"

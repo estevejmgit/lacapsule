@@ -1,0 +1,12 @@
+image: nikolaik/python-nodejs:latest
+
+stages:
+  - test
+
+jobs:
+  stage: test
+  script:
+  - pip3 install locust
+  - npm install
+  - npm start &
+  - locust --headless --only-summary --users 100 --spawn-rate 20 -H http://localhost:3000 -t 5s

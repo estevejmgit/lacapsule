@@ -1,0 +1,58 @@
+body {
+  background: linear-gradient(72deg, #9adaff, #deff9a);
+  background-size: 400% 400%;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 24%;
+  }
+  50% {
+    background-position: 100% 77%;
+  }
+  100% {
+    background-position: 0% 24%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 24%;
+  }
+  50% {
+    background-position: 100% 77%;
+  }
+  100% {
+    background-position: 0% 24%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 24%;
+  }
+  50% {
+    background-position: 100% 77%;
+  }
+  100% {
+    background-position: 0% 24%;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#container {
+  background-color: white;
+  border-radius: 5%;
+  padding: 1rem;
+  border: 2px solid blue;
+}

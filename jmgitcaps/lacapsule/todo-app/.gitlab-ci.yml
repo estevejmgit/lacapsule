@@ -1,0 +1,14 @@
+stages:
+  - test
+  - test2
+
+test:
+  image: node:latest
+  stage:test
+  script:
+    - npm ci
+    - npm start &
+    - npm run e2e
+
+test2:
+  - image: cypress/browsers:latest

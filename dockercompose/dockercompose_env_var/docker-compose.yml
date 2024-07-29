@@ -1,0 +1,14 @@
+services:
+  mymails:
+    build: .
+    # environment:
+    #   - EMAIL=anewmail@test.com
+    env_file: "my.env"
+  # database:
+  #   image: "postgres:latest"
+  #   ports:
+  #     - "5433:5433"
+  #   volumes:
+  #     - ./db_data:/var/lib/postgresql/data
+  #   environment:
+  #     POSTGRES_PASSWORD: sisi

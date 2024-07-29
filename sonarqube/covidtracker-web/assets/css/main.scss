@@ -1,0 +1,243 @@
+---
+---
+
+@import "main";
+@import "variables";
+@import "startbootstrap-sb-admin-2/scss/sb-admin-2";
+@import "select2/src/scss/core";
+
+.navbar-fixed-full {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1040;
+}
+
+.navbar-fixed-full .jumbotron {
+  margin-bottom: 0px;
+}
+
+#navbar-simplified {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1041;
+}
+
+#dashboard_nav {
+  display: none;
+}
+
+.jumbotron-title {
+  top: 2rem;
+}
+
+.jumbotron-title .lead {
+  display: none;
+}
+
+.jumbotron-title .display-4 {
+  font-size: 2.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+@media (min-width: 576px) {
+
+  .jumbotron-title {
+    top: initial;
+  }
+
+  .jumbotron-title .lead {
+    display: block;
+  }
+
+  .jumbotron-title .display-4 {
+    font-size: 3.5rem;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  #navbar-simplified {
+    display: none;
+  }
+
+  #content-wrapper .navbar-fixed-full {
+    width: calc(100% - 6.5rem);
+  }
+  #content-wrapper.toggled .navbar-fixed-full{
+    width: 100%;
+  }
+  #content-wrapper {
+    margin-left: 6.5rem;
+  }
+  #content-wrapper.toggled {
+    margin-left: 0;
+  }
+
+  #dashboard_nav {
+    width: 6.5rem;
+    display: block;
+  }
+
+  #dashboard_nav.toggled {
+    width: 0;
+  }
+}
+@media (min-width: 992px) {
+  #content-wrapper .navbar-fixed-full {
+    width: calc(100% - 14rem);
+  }
+  #content-wrapper.toggled .navbar-fixed-full {
+    width: calc(100% - 6.5rem);
+  }
+  #content-wrapper {
+    margin-left: 14rem;
+  }
+  #content-wrapper.toggled {
+    margin-left: 6.5rem;
+  }
+
+  #dashboard_nav {
+    width: 14rem;
+    display: block;
+  }
+
+  #dashboard_nav.toggled {
+    width: 6.5rem;
+  }
+}
+
+h2 {
+  border-bottom: 1px solid lightgrey;
+}
+
+.sidebar-dark .nav-item .nav-link {
+  padding-bottom: 0px;
+}
+
+.sidebar-dark .sidebar-heading {
+  margin-top: 1rem;
+  border-top: 1px solid rgba(255,255,255,0.4);
+  padding-top: 1rem;
+}
+
+#navbar-verticale .list-group-item {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.jumbotron-billboard {
+  padding: 2rem 1rem;
+}
+.jumbotron-billboard .img {
+  background: #000 url('../img/corona-1920.jpg') top center no-repeat;
+  width: 102%;
+  height: 102%;
+  background-size: cover;
+  position: absolute;
+  top: -1%;
+  left: -1%;
+  overflow: hidden;
+  filter: blur(5px);
+  transform: scale(1.1);
+}
+.jumbotron-billboard .lead {
+  text-shadow: 0 0 5px black;
+}
+.jumbotron {
+  position: relative;
+  overflow: hidden;
+  border-radius: initial;
+}
+.jumbotron-title {
+  max-height: 121px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+footer.sticky-footer {
+  padding: 0.8rem 0 !important;
+}
+
+.zoomed {
+  //transform applied by js
+  position: fixed;
+  top: 50%;
+  z-index: 10000;
+  left: 50%;
+  transform-origin: top left;
+}
+
+.img-thumbnail {
+  padding: .25rem;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: .25rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.social-link {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  border-radius: 50%;
+  transition: all 0.3s;
+  font-size: 0.9rem;
+}
+
+//switches
+.custom-control-input-success:checked ~ .custom-control-label::before {
+  background-color: #28a745 !important;
+  border-color: #28a745 !important;
+}
+
+.custom-control-input-danger:checked ~ .custom-control-label::before {
+  background-color: #dc3545 !important;
+  border-color: #dc3545 !important;
+}
+
+.custom-control-input-warning:checked ~ .custom-control-label::before {
+  background-color: #ffc107 !important;
+  border-color: #ffc107 !important;
+}
+
+.custom-control-input-info:checked ~ .custom-control-label::before {
+  background-color: #17a2b8 !important;
+  border-color: #17a2b8 !important;
+}
+
+/* Large toggl switches */
+.custom-switch-lg .custom-control-label::before {
+  left: -2.25rem;
+  width: 3rem;
+  border-radius: 1.5rem;
+}
+
+.custom-switch-lg .custom-control-label::after {
+  top: calc(.25rem + 3px);
+  left: calc(-2.25rem + 4px);
+  width: calc(1.5rem - 6px);
+  height: calc(1.5rem - 6px);
+  border-radius: 1.5rem;
+}
+
+.custom-switch-lg .custom-control-input:checked ~ .custom-control-label::after {
+  transform: translateX(1.4rem);
+}
+
+.custom-switch-lg .custom-control-label::before {
+  height: 1.5rem;
+}
+
+.custom-switch-lg .custom-control-label {
+  padding-left: 1.5rem;
+  line-height: 1.7rem;
+}

@@ -1,0 +1,20 @@
+=============== Jul 12, 2024 (CEST) ===============
+16:25:30.610555 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:25:30.671789 db@open opening
+16:25:30.675310 version@stat F·[] S·0B[] Sc·[]
+16:25:30.681730 db@janitor F·2 G·0
+16:25:30.681864 db@open done T·8.103436ms
+16:25:30.730999 db@close closing
+16:25:30.731236 db@close done T·235.942µs
+=============== Jul 12, 2024 (CEST) ===============
+16:25:31.005912 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:25:31.006267 version@stat F·[] S·0B[] Sc·[]
+16:25:31.006301 db@open opening
+16:25:31.006352 journal@recovery F·1
+16:25:31.029048 journal@recovery recovering @1
+16:25:31.059373 memdb@flush created L0@2 N·6 S·1KiB "/F5..PGQ,v6":"/pi..rty,v1"
+16:25:31.064819 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+16:25:32.272189 db@janitor F·3 G·0
+16:25:32.272335 db@open done T·1.26600244s
+16:36:07.481613 db@close closing
+16:36:07.481737 db@close done T·88.496µs

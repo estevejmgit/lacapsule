@@ -1,0 +1,6 @@
+[submodule "submodules/vaccins"]
+	path = submodules/vaccins
+	url = https://github.com/rozierguillaume/vaccintracker
+[submodule "submodules/covid19"]
+	path = submodules/covid19
+	url = https://github.com/rozierguillaume/covid-19

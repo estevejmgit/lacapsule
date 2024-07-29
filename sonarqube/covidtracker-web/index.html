@@ -1,0 +1,196 @@
+---
+layout: default
+title: "Covidtracker"
+subtitle: "Statistiques et visualisations de données Covid19"
+headjs:
+  - assets/vendor/jquery-ui.widget-factory.min.js
+  - assets/js/jquery-ui-datamap.js
+js:
+  - js/index_gauges.js
+css:
+  - assets/css/vaccins_proportion.css
+  - assets/css/carte_departement.css
+---
+
+{% include jumbotron.html %}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-10">
+            <div class="row">
+                <!-- TODO change border-left with variables -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card
+                    {% if site.data.cases.last.national.incidence < 10 %}
+                    border-left-success
+                    {% elsif site.data.cases.last.national.incidence >= 10 and site.data.cases.last.national.incidence < 50 %}
+                    border-left-warning
+                    {% elsif site.data.cases.last.national.incidence >= 50 %}
+                    border-left-danger
+                    {% endif %}
+                    ">
+                        <div class="card-header text-center font-weight-bold">
+                            Incidence
+                        </div>
+                        <div class="card-body">
+                            <div id="gauge_incidence" data-title="Incidence" data-value="{{site.data.cases.last.national.incidence}}" data-symbol=
+                            {% if site.data.cases.last.national.incidence_tendance > 0 %}
+                             " ↗"
+                            {% elsif site.data.cases.last.national.incidence_tendance == 0 %}
+                            " ="
+                            {% else %}
+                               " ↘"
+                             {% endif %}
+                            ></div>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Nombre de cas par semaine pour 100k habitants. Le seuil d'alerte est 50.</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card
+                    {% if site.data.cases.last.national.positivite < 5 %}
+                    border-left-success
+                    {% elsif site.data.cases.last.national.positivite >= 5 and site.data.cases.last.national.positivite < 10 %}
+                    border-left-warning
+                    {% elsif site.data.cases.last.national.positivite >= 10  %}
+                    border-left-danger
+                    {% endif %}
+                        ">
+                        <div class="card-header text-center font-weight-bold">
+                            Taux de positivité
+                        </div>
+                        <div class="card-body">
+                            <div id="gauge_positivite" data-value="{{site.data.cases.last.national.positivite}}" data-symbol=
+                                 {% if site.data.cases.last.national.positivite_tendance > 0 %}
+                                "% ↗"
+                                {% elsif site.data.cases.last.national.positivite_tendance == 0 %}
+                                "% ="
+                                {% else %}
+                                "% ↘"
+                                {% endif %}
+                            ></div>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Proportion des tests qui sont positifs parmi l'ensemble des tests.</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card
+                    {% if site.data.cases.last.national.reff < 1 %}
+                    border-left-success
+                    {% elsif site.data.cases.last.national.reff >= 1 and site.data.cases.last.national.reff < 1.5 %}
+                    border-left-warning
+                    {% elsif site.data.cases.last.national.reff >= 1.5  %}
+                    border-left-danger
+                    {% endif %}
+                    ">
+                        <div class="card-header text-center font-weight-bold">
+                            Reff
+                        </div>
+                        <div class="card-body">
+                            <div id="gauge_reff" data-value="{{site.data.cases.last.national.reff}}" data-symbol=
+                                 {% if site.data.cases.last.national.reff_tendance > 0 %}
+                                " ↗"
+                                {% elsif site.data.cases.last.national.reff_tendance == 0 %}
+                                " ="
+                                {% else %}
+                                " ↘"
+                                {% endif %}
+                                ></div>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Nombre de personnes contaminées par 1 malade.</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card
+                    {% if site.data.hosp.last.national.saturation_rea < 30 %}
+                    border-left-success
+                    {% elsif site.data.hosp.last.national.saturation_rea >= 30 and site.data.hosp.last.national.saturation_rea < 60 %}
+                    border-left-warning
+                    {% elsif site.data.hosp.last.national.saturation_rea >= 60  %}
+                    border-left-danger
+                    {% endif %}
+                    ">
+                        <div class="card-header text-center font-weight-bold">
+                            Tension hospitalière
+                        </div>
+                        <div class="card-body">
+                            <div id="gauge_tension" data-value="{{site.data.hosp.last.national.saturation_rea}}" data-symbol=
+                                 {% if site.data.hosp.last.national.saturation_rea_tendance > 0 %}
+                                "% ↗"
+                                {% elsif site.data.hosp.last.national.saturtion_rea_tendance == 0 %}
+                                "% ="
+                                {% else %}
+                                "% ↘"
+                                {% endif %}
+                                ></div>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Nombre de lits de réanimation occupés par les patients Covid19 .</small>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <p></p>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="card zoomable">
+                        <div class="card-header text-center font-weight-bold">
+                            Carte de l'incidence
+                        </div>
+                        <div class="card-body" id="datamap">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card zoomable">
+                        <div class="card-header text-center font-weight-bold">
+                            Proportion de personnes vaccinées
+                        </div>
+                        <div class="card-body">
+                            <div style="text-align: center">
+                                {% include vaccin_rubik.html part="tableau" %}
+                            </div>
+                            {% include vaccin_rubik.html part="description" %}
+                        </div>
+                        {% include vaccin_rubik.html part="script" %}
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            {% twitter https://twitter.com/covidtracker_fr limit=2 %}
+        </div>
+    </div>
+    <div class="row">
+
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        let data = {{ site.data.json.cases.incidence_departements.donnees_departements | jsonify }};
+        let departements = {{ site.data.departements | jsonify }};
+        //add num dep to data as it is the key used in svg
+        for (let key in data) {
+            numdep = departements.filter(function(el){
+                return el.dep_name.toLowerCase() == key.toLowerCase();
+            });
+            data[key].num_dep = numdep[0].num_dep;
+        }
+        $('#datamap').datamap({
+            svgPath: "{{ '/assets/svg/departements.svg' | prepend: site.baseurl }}",
+            data: data,
+            svgId: "data-num"
+        });
+    });
+</script>

@@ -1,0 +1,25 @@
+stages:
+  - test
+
+variables:
+  API_URL: "https://jsonplaceholder.typicode.com/users"
+
+max_weight:
+  stage: test
+  script:
+    - echo "Check Size"
+    - echo $MAXIMUM_WEIGHT
+    - chmod +x checkSize.sh
+    - ./checkSize.sh "$MAXIMUM_WEIGHT"
+
+# check_api:
+#   stage: test
+#   script:
+#     - echo "$(date +%u)"
+#     - echo "Checking if API is reachable"
+#     - curl $API_URL
+#     - >
+#       if [ "$(date +%u)" -eq 5 ]; then 
+#         echo "Today is Friday. Failing the job."; 
+#         exit 1; 
+#       fi

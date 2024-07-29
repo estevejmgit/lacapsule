@@ -1,0 +1,1000 @@
+ 1095  git push origin main 
+ 1096  git pull
+ 1097  git status
+ 1098  htop
+ 1099  cd lacapsule/
+ 1100  ls
+ 1101  cd programme/
+ 1102  ls
+ 1103  cd kubernetes/
+ 1104  ls
+ 1105  code .
+ 1106  cd ~/lacapsule/programme/
+ 1107  ls
+ 1108  ls -l
+ 1109  history | grep find
+ 1110  find . -name .gitlab-ci.yml
+ 1111  grep -r ~/ -e 'ello'
+ 1112  grep -r ./ -e 'ello'
+ 1113  grep -r ./ -e 'Hello World'
+ 1114  grep -r ./ -e 'Hello World!'
+ 1115  grep -ri --include \*.yml -e 'hello world' ./
+ 1116  mkdir ci_cd
+ 1117  cd ci_cd/
+ 1118  cp ../azureDevOps/To-do-App/azure-pipelines.yml ./
+ 1119  ls
+ 1120  code .
+ 1121  ls
+ 1122  git init
+ 1123  ls
+ 1124  rm -f azure-pipelines.yml 
+ 1125  ls
+ 1126  git rremote add origin git@gitlab.com:estevejmgit/testci.git
+ 1127  git remote add origin git@gitlab.com:estevejmgit/testci.git
+ 1128  git pull
+ 1129  ls
+ 1130  git remote -v
+ 1131  git pull origin main
+ 1132  ls
+ 1133  git status
+ 1134  git add .
+ 1135  git commit -m "hello world"
+ 1136  git push origin main 
+ 1137  git add .
+ 1138  git commit -m "add predefined vars"
+ 1139  git push origin main 
+ 1140  git add .
+ 1141  git commit -m "add predefined vars 2"
+ 1142  git push origin main 
+ 1143  git add .
+ 1144  git commit -m "add predefined vars 3"
+ 1145  git push origin main 
+ 1146  git add .
+ 1147  git commit -m "add predefined author"
+ 1148  git push origin main 
+ 1149  git add .
+ 1150  git commit -m "add predefined author"
+ 1151  git push origin main 
+ 1152  git add .
+ 1153  git commit -m "add predefined author"
+ 1154  git push origin main 
+ 1155  git add .
+ 1156  git commit -m "add predefined author"
+ 1157  git push origin main 
+ 1158  git add .
+ 1159  git commit -m "add predefined author"
+ 1160  git push origin main 
+ 1161  git add .
+ 1162  git commit -m "add predefined author"
+ 1163  git push origin main 
+ 1164  git add .
+ 1165  git commit -m "add predefined author"
+ 1166  git push origin main 
+ 1167  git add .
+ 1168  git commit -m "add predefined author"
+ 1169  git push origin main 
+ 1170  git add .
+ 1171  git commit -m "add predefined author"
+ 1172  git push origin main 
+ 1173  git add .
+ 1174  git commit -m "add predefined author"
+ 1175  git push origin main 
+ 1176  git add .
+ 1177  git commit -m "add predefined author"
+ 1178  git push origin main 
+ 1179  git status
+ 1180  git add .
+ 1181  git commit -m "add predefined author"
+ 1182  git push origin main
+ 1183  history | grep find
+ 1184  find /home/jme/lacapsule/programme/ -name checkAuthor.sh
+ 1185  sudo find /home/jme/lacapsule/programme/ -name checkAuthor.sh
+ 1186  sudo find /home/jme/lacapsule/programme/ -name checkauthor.sh
+ 1187  sudo find /home/jme/lacapsule/programme/ -name \*.sh
+ 1188  find /home/jme/lacapsule/programme/ -name author\*.sh
+ 1189  find /home/jme/lacapsule/programme/ -name loo\*.sh
+ 1190  find /home/jme/lacapsule/programme/ -name \*uthor.sh
+ 1191  find /home/jme -name \*uthor.sh
+ 1192  ls
+ 1193  chmod +x checkAuthor.sh 
+ 1194  git add .
+ 1195  git commit -m "add checkauthor sh"
+ 1196  git push origin main
+ 1197  cp ~/Téléchargements/flake8.zip ./
+ 1198  ls
+ 1199  git status
+ 1200  cd ..
+ 1201  mkdir ci_cd_next
+ 1202  cd ci_cd_next/
+ 1203  mv ../ci_cd/flake8.zip ./
+ 1204  unzip flake8.zip 
+ 1205  cd ultimate-length-app/
+ 1206  ls
+ 1207  ls -la
+ 1208  git init
+ 1209  git remote add url git@gitlab.com:estevejmgit/ultimate-length-app.git
+ 1210  git status
+ 1211  git pull
+ 1212  git remote -v
+ 1213  git branch
+ 1214  git pull origin main
+ 1215  git remote rm git@gitlab.com:estevejmgit/ultimate-length-app.git
+ 1216  git remote remove origin
+ 1217  git remote remove url
+ 1218  git remote add origin git@gitlab.com:estevejmgit/ultimate-length-app.git
+ 1219  git pull
+ 1220  ls
+ 1221  ls -la
+ 1222  cd ..
+ 1223  ls
+ 1224  cp ultimate-length-app/app.py ./
+ 1225  git clone git@gitlab.com:estevejmgit/ultimate-length-app.git
+ 1226  rm -r ultimate-length-app/
+ 1227  sudo rm -r ultimate-length-app/
+ 1228  git clone git@gitlab.com:estevejmgit/ultimate-length-app.git
+ 1229  ls ultimate-length-app/
+ 1230  ls -la
+ 1231  ls -la ultimate-length-app/
+ 1232  python3 --version
+ 1233  python --version
+ 1234  python3 -m pip install flake8
+ 1235  ls
+ 1236  ls -la
+ 1237  git status
+ 1238  cd ultimate-length-app/
+ 1239  git status
+ 1240  git add .
+ 1241  git commit -m "test"
+ 1242  git push origin main 
+ 1243  git add .
+ 1244  git commit -m "test"
+ 1245  git push origin main 
+ 1246  git status
+ 1247  git add .
+ 1248  git commit -m "test"
+ 1249  git push origin main 
+ 1250  git add .
+ 1251  git commit -m "test"
+ 1252  git push origin main 
+ 1253  cd ../..
+ 1254  ls
+ 1255  find awesome*
+ 1256  find awesome-app
+ 1257  history | grep find
+ 1258  find ~/ awesome-app
+ 1259  find ~/ awesome-app | more
+ 1260  clear
+ 1261  find ~/ -type d -name 'awesome-app'
+ 1262  find ~/ -type f -name 'awesome-app*'
+ 1263  cd ci_cd_next/
+ 1264  ls
+ 1265  ls -la
+ 1266  git clone git@gitlab.com:estevejmgit/awesome-app.git
+ 1267  ls
+ 1268  cd awesome-app/
+ 1269  ls
+ 1270  git status
+ 1271  git checkout -b devlopment
+ 1272  ls
+ 1273  code .
+ 1274  ls
+ 1275  ls -la
+ 1276  git status
+ 1277  git add .
+ 1278  git commit -m "adding gitlab ci yml"
+ 1279  git push origin devlopment 
+ 1280  git add .
+ 1281  git commit -m "add error in api url"
+ 1282  git push origin devlopment 
+ 1283  git status
+ 1284  git push origin main
+ 1285  git remote -v
+ 1286  ls
+ 1287  ls -la
+ 1288  git status
+ 1289  git add .
+ 1290  git commit -m "friday restriction"
+ 1291  git push origin main
+ 1292  git add .
+ 1293  git commit -m "friday restriction true"
+ 1294  git push origin main
+ 1295  git push origin devlopment 
+ 1296  git add .
+ 1297  git commit -m "friday restriction fail sunday"
+ 1298  git push origin devlopment 
+ 1299  ls ../../ci_cd/
+ 1300  history | grep find
+ 1301  history | grep grep
+ 1302  grep -ri --include \*.yml -e 'check_api' ~/lacapsule/programme/
+ 1303  git status
+ 1304  git add .
+ 1305  git commit -m "size limit"
+ 1306  git push origin devlopment 
+ 1307  dd if=/dev/null of=wont_pass.file bs=5M count=1
+ 1308  ls
+ 1309  ls -l
+ 1310  ls -la
+ 1311  rm -f wont_pass.file 
+ 1312  dd if=/dev/null of=wont_pass.file bs=1k seek=5120
+ 1313  ls -l
+ 1314  ls -la
+ 1315  git status
+ 1316  git add .
+ 1317  git commit -m "file too large "
+ 1318  git push origin devlopment 
+ 1319  dd if=/dev/null of=wont_pass.file bs=5M
+ 1320  ls -l
+ 1321  dd if=/dev/null of=wont_pass.file bs=1k seek=50120
+ 1322  ls -la
+ 1323  git status
+ 1324  git add .
+ 1325  git commit -m "file too large +"
+ 1326  git push origin devlopment 
+ 1327  ls -la
+ 1328  mv wont_pass.file toolarge.file
+ 1329  git add . 
+ 1330  git commit -m "file too large ++"
+ 1331  git push origin devlopment 
+ 1332  git add . 
+ 1333  git commit -m "file too large +++"
+ 1334  git push origin devlopment 
+ 1335  git pull
+ 1336  ls
+ 1337  rm -f toolarge.file 
+ 1338  git add . 
+ 1339  git commit -m "remove large file"
+ 1340  git push origin devlopment 
+ 1341  cd lacapsule/programme/cd ..
+ 1342  cd ..
+ 1343  ls
+ 1344  cd jme/
+ 1345  clear
+ 1346  ls
+ 1347  cd lacapsule/
+ 1348  ls
+ 1349  cd exo_corrections/devops/semaine3/jour3
+ 1350  ls
+ 1351  code .
+ 1352  git status
+ 1353  git pull
+ 1354  cp ~/Téléchargements/flake8.zip ./
+ 1355  cp ~/Téléchargements/flake8.zip ./flk2.zip
+ 1356  unzip flk2.zip 
+ 1357  code ultimate-length-app/app.py 
+ 1358  git pull
+ 1359  htpo
+ 1360  htop
+ 1361  sudo apt update
+ 1362  ls
+ 1363  ls -la
+ 1364  cd .ssh/
+ 1365  ls
+ 1366  cat id_rsa.pub 
+ 1367  cd
+ 1368  clear
+ 1369  ssh admin@34.163.90.42
+ 1370  ping 35.180.152.112
+ 1371  cd lacapsule/programme/
+ 1372  ls
+ 1373  mkdir aws_cloud
+ 1374  cd aws_cloud/
+ 1375  ls
+ 1376  cp ~/Téléchargements/firstawsvps.pem ./
+ 1377  chmod 600 firstawsvps.pem 
+ 1378  ssh -i "firstawsvps.pem" admin@ec2-35-180-152-112.eu-west-3.compute.amazonaws.com
+ 1379  ssh -i "firstawsvps.pem" admin@35.180.152.112
+ 1380  ssh -i "firstawsvps.pem" admin@13.39.40.43
+ 1381  cd
+ 1382  cd .ssh/
+ 1383  l
+ 1384  ls
+ 1385  emacs known_hosts
+ 1386  nano known_hosts
+ 1387  cd
+ 1388  cd .ssh/
+ 1389  ls
+ 1390  cat id_rsa.pub 
+ 1391  ssh admin@34.163.90.42 
+ 1392  cat id_ed25519.pub 
+ 1393  ssh admin@34.163.90.42 
+ 1394  cat id_rsa.pub 
+ 1395  ssh esteve.jm@34.163.90.42 
+ 1396  ssh estevejm@34.163.90.42 
+ 1397  ssh-keygen -f "/home/jme/.ssh/known_hosts" -R "34.163.90.42"
+ 1398  ssh esteve.jm@34.163.90.42 
+ 1399  ssh-keygen -f "/home/jme/.ssh/known_hosts" -R "34.163.90.42"
+ 1400  cat id_ed25519.pub 
+ 1401  ssh esteve.jm@34.163.90.42 
+ 1402  ssh-keygen -f "/home/jme/.ssh/known_hosts" -R "34.163.90.42"
+ 1403  ssh-keygen -t rsa -f ~/.ssh/google_gpc -C esteve.jm -b 2048
+ 1404  cat google_gpc.pub 
+ 1405  clear
+ 1406  ssh esteve.jm@34.163.90.42 
+ 1407  ssh-keygen -f "/home/jme/.ssh/known_hosts" -R "34.163.90.42"
+ 1408  ls
+ 1409  sudo rm -f google_gpc google_gpc.pub 
+ 1410  cat id_rsa.pub 
+ 1411  ls
+ 1412  ssh-keygen -f "/home/jme/.ssh/known_hosts" -R "34.163.90.42"
+ 1413  ssh jme@34.163.90.42 
+ 1414  ssh-keygen -f "/home/jme/.ssh/known_hosts" -R "34.163.90.42"
+ 1415  ssh-keygen -t rsa -f ~/.ssh/google_gpc -C esteve.jm -b 2048
+ 1416  ls
+ 1417  cat google_gpc.pub 
+ 1418  clear
+ 1419  ssh esteve.jm@34.163.90.42
+ 1420  gcloud compute ssh --zone "europe-west9-c" "googlevps" --project "ace-server-429508-q5"
+ 1421  cat google_gpc.pub 
+ 1422  ssh-keygen -f "/home/jme/.ssh/known_hosts" -R "34.163.90.42"
+ 1423  ssh esteve.jm@34.163.90.42
+ 1424  ssh-keygen -f "/home/jme/.ssh/known_hosts" -R "34.163.90.42"
+ 1425  ssh esteve.jm@34.163.90.42
+ 1426  ls -la
+ 1427  ssh estevejm@34.163.90.42
+ 1428  ssh esteve.jm_gmail_com@34.163.90.42
+ 1429  ssh-keygen -f "/home/jme/.ssh/known_hosts" -R "34.163.90.42"
+ 1430  clear
+ 1431  ls
+ 1432  cat google_gpc.pub 
+ 1433  cd 
+ 1434  ssh esteve.jm@34.163.90.42
+ 1435  ls ~/Téléchargements/
+ 1436  ls -l ~/Téléchargements/
+ 1437  chmod 600 ~/Téléchargements/azurevps_key.pem 
+ 1438  mv Téléchargements/azurevps_key.pem ./
+ 1439  ls -l
+ 1440  cat azurevps_key.pem 
+ 1441  ssh estevejm@20.199.95.224
+ 1442  history | grep pem
+ 1443  ls
+ 1444  ls Téléchargements/
+ 1445  cp azurevps_key.pem ./Téléchargements/
+ 1446  ssh estevejm@20.199.95.224
+ 1447  ping 20.199.95.224
+ 1448  ls .ssh/
+ 1449  cat .ssh/id_ed25519.pub 
+ 1450  cat .ssh/id_rsa.pub 
+ 1451  cat .ssh/google_gpc.pub 
+ 1452  ssh-keygen -t rsa -f ~/.ssh/azurevps -C estevejm -b 2048
+ 1453  cat .ssh/azurevps.pub 
+ 1454  clear
+ 1455  ssh estevejm@98.66.233.145
+ 1456  ls .ssh/
+ 1457  ls
+ 1458  cp ~/Téléchargements/
+ 1459  cp ~/Téléchargements/firstawsvps.pem ./
+ 1460  chmod 400 firstawsvps.pem 
+ 1461  ssh -i "firstawsvps.pem" admin@ec2-52-47-189-242.eu-west-3.compute.amazonaws.com
+ 1462  ssh -i firstawsvps.pem  aws-caps@172.31.41.171
+ 1463  ssh -i "firstawsvps.pem" aws-caps@ec2-52-47-189-242.eu-west-3.compute.amazonaws.com
+ 1464  ssh -i "firstawsvps.pem" admin@ec2-52-47-189-242.eu-west-3.compute.amazonaws.com
+ 1465  cd lacapsule/exo_corrections/devops/
+ 1466  ls
+ 1467  git pull
+ 1468  git status
+ 1469  rm -f semaine3/jour3/flk2.zip 
+ 1470  rm -r semaine3/jour3/ultimate-length-app/
+ 1471  git status
+ 1472  git add .
+ 1473  git commit -m "flak8 ajout ressource zip"
+ 1474  git push origin main
+ 1475  git pull
+ 1476  mkdir -p semaine6/jour1
+ 1477  touch semaine6/jour1/README.md
+ 1478  git add .
+ 1479  git commit -m "add sem6 j1 readme"
+ 1480  git push origin main
+ 1481  history | grep keygen
+ 1482  8rpYxVFFTzx6L5YYjdB1
+ 1483  curl ifconfig.me
+ 1484  echo "aws postgres rds mdp 8rpYxVFFTzx6L5YYjdB1" > aws_postgres_mdp.txt
+ 1485  echo "google  postgres rds mdp v@vDZ]Poc887Q&oC" > google__postgres_mdp.txt
+ 1486  postgresql --version
+ 1487  psql --version
+ 1488  psql -h myfirstdatabseincloud.c7myey8y4zl3.eu-west-3.rds.amazonaws.com -p 5499 -U postgres
+ 1489  postgres -h myfirstdatabseincloud.c7myey8y4zl3.eu-west-3.rds.amazonaws.com -p 5499 -U postgres
+ 1490  psq -h myfirstdatabseincloud.c7myey8y4zl3.eu-west-3.rds.amazonaws.com -p 5499 -U postgres
+ 1491  psql -h myfirstdatabseincloud.c7myey8y4zl3.eu-west-3.rds.amazonaws.com -p 5499 -U postgres
+ 1492  psql -h myfirstdatabseincloud.c7myey8y4zl3.eu-west-3.rds.amazonaws.com -p 5499
+ 1493  psql -h myfirstdatabseincloud.c7myey8y4zl3.eu-west-3.rds.amazonaws.com -p 5499 -U postgres
+ 1494  psql -h myfirstdatabseincloud.c7myey8y4zl3.eu-west-3.rds.amazonaws.com -p 5499 -U postgres*
+ 1495  psql -h myfirstdatabseincloud.c7myey8y4zl3.eu-west-3.rds.amazonaws.com -p 5499 -U postgres
+ 1496  psql -h p768573421786-vzx9lx@gcp-sa-cloud-sql.iam.gserviceaccount.com  -U postgres
+ 1497  psql -h ace-server-429508-q5:europe-west9:myfistdatabseincloud  -U postgres
+ 1498  psql -h 34.163.177.153  -U postgres
+ 1499  psql -h 34.163.177.153 -U postgres -d postgres
+ 1500  psql -h 34.163.177.153 -U postgres
+ 1501  curl ifconfig.me
+ 1502  psql -h 34.163.177.153 -U postgres
+ 1503  psql -h jme.database.windows.net  -U postgres
+ 1504  ping jme.database.windows.net
+ 1505  curl ifconfig.me
+ 1506  psql -h jme.database.windows.net  -U postgres
+ 1507  psql -h jme.database.windows.net -U postgres -d postgres
+ 1508  psql -h jme.database.windows.net -U postgres --password
+ 1509  psql -h jme.database.windows.net -U postgres 
+ 1510  psql -h jme.database.windows.net -p 1433 -U postgres 
+ 1511  psql -h jme.database.windows.net -U postgres 
+ 1512  psql -h jme.database.windows.net -U postgres
+ 1513  psql -h jme.database.windows.net -p 5432 -U postgres 
+ 1514  psql -h jme.database.windows.net -p 1433 -U postgres 
+ 1515  psql -h jme.database.windows.net -p 5433 -U postgres 
+ 1516  mysql -h jme.database.windows.net  -U postgres 
+ 1517  psql -h jme-serv.postgres.database.azure.com -p 5432 -U postgres postgres
+ 1518  clear
+ 1519  curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+ 1520  unzip awscliv2.zip 
+ 1521  ls
+ 1522  rm -f awscliv2.zip 
+ 1523  sudo ./aws/install --bin-dir /usr/local/bin --install-dir /usr/local/aws-cli --update
+ 1524  /usr/local/bin/aws --version
+ 1525  aws --version
+ 1526  aws configure
+ 1527  aws dynamodb arn:aws:dynamodb:eu-west-3:891377091846:table/myfirstnosqltable
+ 1528  aws dynamodb describe-table arn:aws:dynamodb:eu-west-3:891377091846:table/myfirstnosqltable
+ 1529  aws dynamodb describe-table --table-name=myfirstnosqltable arn:aws:dynamodb:eu-west-3:891377091846:table/myfirstnosqltable
+ 1530  aws dynamodb describe-table --table-name=myfirstnosqltable
+ 1531  aws configure --region=eu-west-3
+ 1532  aws dynamodb describe-table --table-name=myfirstnosqltable
+ 1533  ls -la aws/
+ 1534  ls .aws/credentials 
+ 1535  cat .aws/credentials 
+ 1536  sudo rm -f .aws/credentials 
+ 1537  aws dynamodb list-table --endpoint-url arn:aws:dynamodb:eu-west-3:891377091846:table/myfirstnosqltable
+ 1538  aws dynamodb list-tables --endpoint-url arn:aws:dynamodb:eu-west-3:891377091846:table/myfirstnosqltable
+ 1539  aws dynamodb list-tables arn:aws:dynamodb:eu-west-3:891377091846:table/myfirstnosqltable
+ 1540  aws dynamodb list-tables --endpoint-url https://dynamodb.eu-west-3.amazonaws.com
+ 1541  aws configure
+ 1542  aws dynamodb list-tables --endpoint-url https://dynamodb.eu-west-3.amazonaws.com
+ 1543  aws configure
+ 1544  aws dynamodb list-tables --endpoint-url https://dynamodb.eu-west-3.amazonaws.com
+ 1545  aws configure
+ 1546  aws dynamodb list-tables --endpoint-url https://dynamodb.eu-west-3.amazonaws.com
+ 1547  aws configure
+ 1548  aws dynamodb list-tables --endpoint-url https://dynamodb.eu-west-3.amazonaws.com
+ 1549  sudo rm -f .aws/credentials 
+ 1550  aws config
+ 1551  aws configure
+ 1552  aws dynamodb list-tables --endpoint-url https://dynamodb.eu-west-3.amazonaws.com
+ 1553  aws dynamodb list-tables
+ 1554  aws configure
+ 1555  aws dynamodb list-tables
+ 1556  aws dynamodb list-tables --endpoint-url https://dynamodb.eu-west-3.amazonaws.com
+ 1557  aws configure
+ 1558  aws dynamodb describe-table --table-name arn:aws:dynamodb:eu-west-3:891377091846:table/myfirstnosqltable
+ 1559  htop
+ 1560  echo "azure postgres rds mdp =z3$RPPLq8D+"aX" > azure_postgres_mdp.txt
+ 1561  ;
+ 1562  echo "azure postgres rds mdp =z3$RPPLq8D+"aX" > azure_postgres_mdp.txt
+ 1563  ls
+ 1564  cd
+ 1565  ls
+ 1566  cd
+ 1567  cd lacapsule/exo_corrections/devops/semaine6/jour3/
+ 1568  ls
+ 1569  cp ~/Téléchargements/cdnwithcloudfront.zip ./
+ 1570  ls
+ 1571  cd lacapsule/exo_corrections/devops/semaine6/
+ 1572  mkdir jour3
+ 1573  cd jour3
+ 1574  touch 1_aws_s3_store.md
+ 1575  git pull
+ 1576  cp ~/Téléchargements/storagewiths3.zip ./
+ 1577  git add .
+ 1578  git commit -m "add sem6 jour3 1.md & zip"
+ 1579  git push origin main 
+ 1580  cd
+ 1581  cd lacapsule/programme/
+ 1582  ls
+ 1583  mkdir aws_s3
+ 1584  cd aws_s3/
+ 1585  cp ~/Téléchargements/storagewiths3.zip 
+ 1586  cp ~/Téléchargements/storagewiths3.zip ./
+ 1587  unzip storagewiths3.zip 
+ 1588  ls -la
+ 1589  ls
+ 1590  cd wwe/
+ 1591  ls -l
+ 1592  firefox randyorton.jpeg 
+ 1593  aws --version
+ 1594  aws configure
+ 1595  aws s3 cp ./ arn:aws:s3:::jmeawsbucket
+ 1596  aws s3 cp ./ s3://arn:aws:s3:::jmeawsbucket
+ 1597  aws s3 cp ./ s3://jmeawsbucket
+ 1598  aws s3 cp ./ s3://jmeawsbucket/ 
+ 1599  aws s3 cp ./ s3://jmeawsbucket/ --recursive
+ 1600  aws s3 ls s3://jmeawsbucket/ --recursive
+ 1601  cp ~/Téléchargements/cdnwithcloudfront.zip ./
+ 1602  cp ~/Téléchargements/cdnwithcloudfront.zip ./
+ 1603  unzip cdnwithcloudfront.zip 
+ 1604  aws s3api get-bucket-versioning --bucket jmeawsbucket
+ 1605  aws s3api delete-objects --bucket jmeawsbucket \ 
+ 1606  aws s3api delete-objects --bucket jmeawsbucket --delete "$(aws s3api list-object-versions --bucket "my-bucket" --output=json --query='{Objects: Versions[].{Key:Key,VersionId:VersionId}}')"
+ 1607  aws s3api delete-objects --bucket jmeawsbucket --delete="$(aws s3api list-object-versions --bucket "my-bucket" --output=json --query='{Objects: Versions[].{Key:Key,VersionId:VersionId}}')"
+ 1608  aws s3 rm s3://jmeawsbucket --recursive
+ 1609  ls
+ 1610  cd ecw-website/
+ 1611  ls
+ 1612  aws s3 cp ./ s3://jmeawsbucket/ --recursive
+ 1613  aws s3 ls s3://jmeawsbucket/ --recursive
+ 1614  cd ..
+ 1615  ls
+ 1616  mkdir google-bucket
+ 1617  cd google-bucket/
+ 1618  unzip ../cdnwithcloudfront.zip ./
+ 1619  unzip ./ ../cdnwithcloudfront.zip 
+ 1620  unzip ../cdnwithcloudfront.zip -d ./
+ 1621  sudo apt update
+ 1622  sudo apt-get update
+ 1623  sudo apt install  apt-transport-https ca-certificates gnupg
+ 1624  curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo gpg --dearmor -o /usr/share/keyrings/cloud.google.gpg
+ 1625  ls
+ 1626  curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo gpg --dearmor -o /usr/share/keyrings/cloud.google.gpg
+ 1627  echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
+ 1628  sudo apt-get update && sudo apt-get install google-cloud-cli
+ 1629  htop
+ 1630  cd lacapsule/programme/aws_s3/
+ 1631  ls
+ 1632  cd ..
+ 1633  mv aws_s3/ cloud_storage
+ 1634  cd cloud_storage/
+ 1635  ls
+ 1636  cd google-bucket/
+ 1637  ls
+ 1638  history
+ 1639  gcloud init
+ 1640  ls
+ 1641  cd ecw-website/
+ 1642  ls
+ 1643  gcloud init --no-launch-browser
+ 1644  gcloud storage ls
+ 1645  gsutil cp ./ gs://jmegougbucket/
+ 1646  gsutil cp -r ./ gs://jmegougbucket/
+ 1647  gcloud storage buckets add-iam-policy-binding  gs://my-static-assets --member=allUsers --role=roles/storage.objectViewer
+ 1648  gcloud storage buckets add-iam-policy-binding  gs://jmegougbucket --member=allUsers --role=roles/storage.objectViewer
+ 1649  cd ../..
+ 1650  ls
+ 1651  mkdir azure-bucket
+ 1652  cd azure-bucket/
+ 1653  cp ../cdnwithcloudfront.zip ./
+ 1654  unzip cdnwithcloudfront.zip 
+ 1655  git pull
+ 1656  cd ~/lacapsule/exo_corrections/devops/semaine6/jour3/
+ 1657  git pull
+ 1658  git status
+ 1659  git add .
+ 1660  git commit -m "add zip ressource for cloud storage exo "
+ 1661  git push origin main 
+ 1662  cd
+ 1663  cd lacapsule/programme/
+ 1664  ls
+ 1665  mkdir  2_hackaton_mocking
+ 1666  cd 2_hackaton_mocking/
+ 1667  git init
+ 1668  git remote add origin git@gitlab.com:estevejmgit/mocking-bird.git
+ 1669  git pull
+ 1670  sudo rm -rf .git
+ 1671  cp ~/Téléchargements/backend-main.zip ./
+ 1672  cp ~/Téléchargements/frontend-main.zip ./
+ 1673  unzip backend-main.zip 
+ 1674  unzip frontend-main.zip 
+ 1675  rm -f backend-main.zip frontend-main.zip 
+ 1676  ls
+ 1677  cd backend-main/
+ 1678  ls
+ 1679  cd modules/
+ 1680  ls
+ 1681  cd ../modules/
+ 1682  ls
+ 1683  cd ../models/
+ 1684  ls
+ 1685  cd ../..
+ 1686  cd frontend-main/
+ 1687  ls
+ 1688  cd components/
+ 1689  ls
+ 1690  cd ..
+ 1691  ls
+ 1692  mkdir database
+ 1693  cd database/
+ 1694  gcloud compute ssh --zone "europe-west9-c" "mongodb-gcp-vm" --project "ace-server-429508-q5"
+ 1695  gcloud compute ssh --zone "europe-west9-c" "instance-20240719-082844" --project "ace-server-429508-q5"
+ 1696  for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
+ 1697  clear
+ 1698  sudo apt-get update
+ 1699  sudo apt-get install ca-certificates curl
+ 1700  sudo install -m 0755 -d /etc/apt/keyrings
+ 1701  sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+ 1702  sudo chmod a+r /etc/apt/keyrings/docker.asc
+ 1703  echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+ 1704    $(. /etc/os-release && echo "$VERSION_CODENAME") stable" |   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+ 1705  sudo apt-get update
+ 1706  for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
+ 1707  for pkg in docker.io docker-doc docker-compose podman-docker containerd runc; do sudo apt-get remove $pkg; done
+ 1708  sudo apt-get update
+ 1709  sudo apt-get install ca-certificates curl
+ 1710  sudo install -m 0755 -d /etc/apt/keyrings
+ 1711  sudo curl -fsSL https://download.docker.com/linux/debian/gpg -o /etc/apt/keyrings/docker.asc
+ 1712  sudo chmod a+r /etc/apt/keyrings/docker.asc
+ 1713  echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/debian \
+ 1714    $(. /etc/os-release && echo "$VERSION_CODENAME") stable" |   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+ 1715  sudo apt-get update
+ 1716  lsb_release -a
+ 1717  for pkg in docker.io docker-doc docker-compose podman-docker containerd runc; do sudo apt-get remove $pkg; done
+ 1718  history | grep gcloud
+ 1719  gcloud compute ssh --zone "europe-west9-c" "instance-20240719-082844" --project "ace-server-429508-q5"
+ 1720  clear
+ 1721  sudo apt-get install gnupg curl
+ 1722  curl -fsSL https://www.mongodb.org/static/pgp/server-7.0.asc |    sudo gpg -o /usr/share/keyrings/mongodb-server-7.0.gpg    --dearmor
+ 1723  echo "deb [ signed-by=/usr/share/keyrings/mongodb-server-7.0.gpg ] http://repo.mongodb.org/apt/debian bookworm/mongodb-org/7.0 main" | sudo tee /etc/apt/sources.list.d/mongodb-org-7.0.list
+ 1724  sudo apt-get update
+ 1725  lsb_release -a
+ 1726  echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-7.0.gpg ] https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/7.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-7.0.list
+ 1727  sudo apt-get update
+ 1728  echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-7.0.gpg ] https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/7.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-7.0.list
+ 1729  sudo apt-get update
+ 1730  echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-7.0.gpg ] https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/7.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-7.0.list
+ 1731  apt-add-repository --list
+ 1732  sudo apt update
+ 1733  su - root
+ 1734  cd lacapsule/exo_corrections/devops/semaine6/jour6
+ 1735  cd lacapsule/exo_corrections/devops/semaine6/
+ 1736  mkdir jour6
+ 1737  touch jour6/README.md
+ 1738  cd jour6
+ 1739  ls
+ 1740  git pull
+ 1741  git add .
+ 1742  git commit -m "add s6 J6  readme"
+ 1743  git push origin main 
+ 1744  htop
+ 1745  sudo apt-get update
+ 1746  add-apt-repository --remove https://download.docker.com/linux/debian jammy Release
+ 1747  sudo add-apt-repository --remove https://download.docker.com/linux/debian jammy Release
+ 1748  sudo apt-get update
+ 1749  su - jme
+ 1750  docker ps
+ 1751  cd lacapsule/programme/
+ 1752  cd 2_hackaton_mocking/
+ 1753  ls backend-main/
+ 1754  cat backend-main/package.json 
+ 1755  gcloud compute ssh --zone "europe-west9-c" "moking-backend-vm" --project "ace-server-429508-q5"
+ 1756  code .
+ 1757  ls
+ 1758  cd backend-main/
+ 1759  ls
+ 1760  git init
+ 1761  git remote add origin git@gitlab.com:estevejmgit/moking-backend.git
+ 1762  git pull
+ 1763  git pull origin main
+ 1764  git add .
+ 1765  git status
+ 1766  rm -f .DS_Store
+ 1767  git add .
+ 1768  git commit -m "firt commit"
+ 1769  git branch
+ 1770  git push origin main 
+ 1771  ssh mocking-azure-db.mongo.cosmos.azure.com
+ 1772  lsb_release -a
+ 1773  wget -qO - https://www.mongodb.org/static/pgp/server-7.0.asc | sudo apt-key add -
+ 1774  sudo apt install -y gnupg2
+ 1775  apt-key list
+ 1776  echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-7.0.gpg ] https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/7.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-7.0.list
+ 1777  sudo apt-get update
+ 1778  sudo apt-get install -y mongodb-org
+ 1779  ls
+ 1780  mongodb -v
+ 1781  mogo -v
+ 1782  mongo -v
+ 1783  mongosh -v
+ 1784  mongosh --version
+ 1785  mongosh mocking-azure-db.mongo.cosmos.azure.com:10255 -u mocking-azure-db -p vymaYzAkCROZno0P3LVe7dRTgmbYhEyhDyprIy0WOSrVeGtOFuXA57mxCQDNMVkgH52Lp9EuYKg5ACDbdCix5A== --ssl --sslAllowInvalidCertificates
+ 1786  ls
+ 1787  chmod 400 pokedex.pem 
+ 1788  ssh -i "pokedex.pem" admin@ec2-3-88-205-54.compute-1.amazonaws.com
+ 1789  clear
+ 1790  ssh admin@92.243.24.152
+ 1791  ping pokedexjm.esteve.tech
+ 1792  lbs_releaase -a
+ 1793  lsb_releaase -a
+ 1794  lsb_release -a
+ 1795  wget -O- https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
+ 1796  sudo wget -O- https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
+ 1797  ls
+ 1798  cat wget-log 
+ 1799  echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
+ 1800  sudo apt update && sudo apt install terraform
+ 1801  lsb_releaase -a
+ 1802  lsb_release -a
+ 1803  sudo apt update
+ 1804  terraform --version
+ 1805  sudo apt install terraform
+ 1806  terraform --version
+ 1807  cd /etc/apt/sources.list.d/
+ 1808  ls
+ 1809  nano docker.list 
+ 1810  sudo nano docker.list 
+ 1811  cd
+ 1812  ls
+ 1813  cd lacapsule/programme/
+ 1814  mkdir terraform
+ 1815  cd terraform
+ 1816  ls
+ 1817  mkdir start_terraform
+ 1818  cd start_terraform/
+ 1819  nano main.tf
+ 1820  terraform init
+ 1821  terraform plan
+ 1822  terraform apply
+ 1823  docker ps
+ 1824  terraform destroy
+ 1825  sudo terraform destroy
+ 1826  sudo aa-remove-unknown
+ 1827  terraform destroy
+ 1828  sudo systemctl start apparmor
+ 1829  sudo apparmor_parser -r /var/lib/snapd/apparmor/profiles/*
+ 1830  aws --version
+ 1831  ls ~/
+ 1832  cp ~/Téléchargements/firstawsvps.pem ./
+ 1833  chmod 400 firstawsvps.pem 
+ 1834  aws configure
+ 1835  cat firstawsvps.pem 
+ 1836  clear
+ 1837  ls
+ 1838  cd ..
+ 1839  ls
+ 1840  nano access_ids_aws.txt
+ 1841  mkdir terraform_aws
+ 1842  cd terraform_aws/
+ 1843  export AWS_ACCESS_KEY_ID=AKIA47CRXAUDMJ7LFIMM
+ 1844  export AWS_SECRET_ACCESS_KEY=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
+ 1845  export AWS_ACCESS_KEY_ID=AKIA47CRXAUDMJ7LFIMM
+ 1846  nano main.tf
+ 1847  terraform init
+ 1848  terraform fmt
+ 1849  terraform validate
+ 1850  terraform plan
+ 1851  terraform apply
+ 1852  nano main.tf 
+ 1853  terraform fmt
+ 1854  terraform validate
+ 1855  terraform apply
+ 1856  ls
+ 1857  cd ..
+ 1858  ls
+ 1859  terraform show
+ 1860  cd terraform_aws/
+ 1861  terraform show
+ 1862  cd ..
+ 1863  ls
+ 1864  cd terraform_aws/
+ 1865  ssh -i "../access_ids_aws.txt" admin@15.237.53.108
+ 1866  ls ~/Téléchargements/
+ 1867  cp ~/Téléchargements/firstawsvps.pem ./
+ 1868  chmod 400 firstawsvps.pem 
+ 1869  ssh -i "firstawsvps.pem" admin@15.237.53.108
+ 1870  curl http://15.237.53.108
+ 1871  docker ps
+ 1872  ssh-keygen
+ 1873  ls
+ 1874  cat id_rsa.pub 
+ 1875  cat main.tf 
+ 1876  nano main.tf 
+ 1877  ls
+ 1878  ls ~/.ssh/
+ 1879  nano main.tf 
+ 1880  terraform mtf
+ 1881  terraform fmt
+ 1882  terraform validate
+ 1883  nano main.tf 
+ 1884  terraform validate
+ 1885  nano main.tf 
+ 1886  terraform validate
+ 1887  nano main.tf 
+ 1888  terraform validate
+ 1889  terraform apply
+ 1890  cat main.tf 
+ 1891  nano main.tf 
+ 1892  ls
+ 1893  ssh -i id_rsa admin@15.237.53.108
+ 1894  nano main.tf 
+ 1895  chmod 400 id_rsa
+ 1896  chmod 400 id_rsa.pub 
+ 1897  ls
+ 1898  mkdir .ssh
+ 1899  mv id_rsa id_rsa.pub .ssh/
+ 1900  ls
+ 1901  ssh -i id_rsa admin@15.237.53.108
+ 1902  ssh -i .ssh/id_rsa admin@15.237.53.108
+ 1903  nano main.tf 
+ 1904  terraform validate
+ 1905  terraform plan
+ 1906  terraform apply
+ 1907  nano main.tf 
+ 1908  terraform validate
+ 1909  terraform plan
+ 1910  nano main.tf 
+ 1911  terraform validate
+ 1912  terraform plan
+ 1913  nano main.tf 
+ 1914  terraform validate
+ 1915  nano main.tf 
+ 1916  terraform validate
+ 1917  terraform plan
+ 1918  terraform apply
+ 1919  ls
+ 1920  ssh admin@35.180.91.182
+ 1921  nano main.tf 
+ 1922  ls
+ 1923  nano main.tf 
+ 1924  terraform plan
+ 1925  nano main.tf 
+ 1926  terraform mtf
+ 1927  terraform fmt
+ 1928  terraform validate
+ 1929  terraform apply
+ 1930  ls
+ 1931  ssh -i "id_rsa" admin@ec2-15-237-53-108.eu-west-3.compute.amazonaws.com
+ 1932  chmod 400 id_rsa
+ 1933  ssh -i "id_rsa" admin@ec2-15-237-53-108.eu-west-3.compute.amazonaws.com
+ 1934  ssh -i "./id_rsa" admin@ec2-15-237-53-108.eu-west-3.compute.amazonaws.com
+ 1935  ssh -i "./id_rsa.pub" admin@ec2-15-237-53-108.eu-west-3.compute.amazonaws.com
+ 1936  chmod 400 id_rsa
+ 1937  chmod 400 id_rsa.pub 
+ 1938  ssh -i "./id_rsa.pub" admin@ec2-15-237-53-108.eu-west-3.compute.amazonaws.com
+ 1939  ssh -i "./id_rsa.pub" admin@15.237.53.108
+ 1940  sudo rm -f ~/.ssh/id_rsa ~/.ssh/id_rsa.pub 
+ 1941  ls
+ 1942  cp id_rsa ~/.ssh/
+ 1943  cp id_rsa.ping ~/.ssh/
+ 1944  cp id_rsa.pub ~/.ssh/
+ 1945  chmod 400 ~/.ssh/id_rsa
+ 1946  chmod 400 ~/.ssh/id_rsa.pub 
+ 1947  terraform plan
+ 1948  terraform validate
+ 1949  cat main.tf 
+ 1950  cd ..
+ 1951  ls
+ 1952  terraform destroy
+ 1953  cd terraform_aws/
+ 1954  terraform destroy
+ 1955  cd ..
+ 1956  ls
+ 1957  mkdir terraformcloud
+ 1958  cd terraformcloud/
+ 1959  ls
+ 1960  terraform login
+ 1961  git clone https://github.com/hashicorp/tfc-getting-started.git
+ 1962  ls
+ 1963  cd tfc-getting-started
+ 1964  scripts/setup.sh
+ 1965  lbs_release -a
+ 1966  lsb_release -a
+ 1967  sudo apt update
+ 1968  sudo apt upgrade
+ 1969  sudo apt install apt-transport-https
+ 1970  sudo apt install jq
+ 1971  ls
+ 1972  cat backend.tf 
+ 1973  scripts/setup.sh
+ 1974  terraform show
+ 1975  ls
+ 1976  cat backend.tf 
+ 1977  terraform destroy
+ 1978  cd ..
+ 1979  terraform login
+ 1980  ls
+ 1981  cd ..
+ 1982  ls*
+ 1983  ls
+ 1984  ls -l
+ 1985  cat terraform.tfstate 
+ 1986  mkdir tfc-advanced-1
+ 1987  cd tfc-advanced-1/
+ 1988  ls ../terraform_aws/
+ 1989  cp ../terraform_aws/main.tf ./
+ 1990  ls
+ 1991  cat main.tf 
+ 1992  terraform login
+ 1993  cd ..
+ 1994  ls
+ 1995  cd tfc-advanced-1/
+ 1996  ls
+ 1997  nano main.tf 
+ 1998  mkdir start
+ 1999  cd start/
+ 2000  mkdir inventories
+ 2001  nano inventories/linode
+ 2002  cat inventories/linode 
+ 2003  ansible all --list-hosts
+ 2004  ansible -i inventories/linode linode -m ping
+ 2005  ansible all -i inventories/linode --list-hosts 
+ 2006  mv inventories/linode ./
+ 2007  ansible all --list-hosts
+ 2008  ls
+ 2009  ansible all -i linode --list-hosts
+ 2010  mv linode linode.ini
+ 2011  ansible all --list-hosts
+ 2012  ls
+ 2013  mv linode.ini linode
+ 2014  mv linode inventories/
+ 2015  ansible all -i inventories/linode --list-hosts
+ 2016  ansible -i inventories/linode linode -m ping
+ 2017  nano inventories/linode 
+ 2018  ansible -i inventories/linode linode -m ping
+ 2019  nano inventories/linode 
+ 2020  ansible -i inventories/linode linode -m ping
+ 2021  ls ~/.ssh
+ 2022  nano inventories/linode 
+ 2023  ansible -i inventories/linode linode -m ping
+ 2024  nano inventories/linode 
+ 2025  ansible -i inventories/linode linode -m ping
+ 2026  ansible -i inventories/linode linode -m ping -u root
+ 2027  nano inventories/linode 
+ 2028  ansible -i inventories/linode linode -m ping -u root
+ 2029  ansible -i inventories/linode linode -m ping -u root --private-key ~/.ssh/id_rsa
+ 2030  ansible -i inventories/linode linode -m ping -u root --private-key ~/.ssh/id_rsa -vvv
+ 2031  nano inventories/linode 
+ 2032  ansible -i inventories/linode linode -m ping -u root --private-key ~/.ssh/id_rsa -vvv
+ 2033  ssh -i ~/.ssh/id_rsa root@172.232.47.243
+ 2034  nano inventories/linode 
+ 2035  ansible -i inventories/linode linode -m ping -u root --private-key ~/.ssh/id_rsa -vvv
+ 2036  nano inventories/linode 
+ 2037  cat inventories/linode 
+ 2038  ls /etc/ansible/
+ 2039  nano inventories/linode 
+ 2040  cat inventories/linode 
+ 2041  sudo nano /etc/ansible/hosts 
+ 2042  rm -r inventories/
+ 2043  ansible all -m ping -u root --private-key ~/.ssh/id_rsa -vvv
+ 2044  sudo nano /etc/ansible/hosts 
+ 2045  ssh root@172.232.56.14
+ 2046  ansible all -list-hosts
+ 2047  ansible  -m ping -u root --private-key ~/.ssh/id_rsa -vvv
+ 2048  ansible all -list-hosts
+ 2049  sudo nano /etc/ansible/hosts 
+ 2050  ansible all -list-hosts
+ 2051  ansible all --list-hosts
+ 2052  sudo nano /etc/ansible/hosts 
+ 2053  ansible all --list-hosts
+ 2054  ansible all -m ping -u root --private-key ~/.ssh/id_rsa -vvv
+ 2055  nano simple-playbook.yml
+ 2056  cat simple-playbook.yml 
+ 2057  ansible-playbook simple-playbook.yml -u root --private-key ~/.ssh/id_rsa
+ 2058  ssh-keygen
+ 2059  nano advanced-playbook.yml
+ 2060  cat simple-playbook.yml
+ 2061  nano advanced-playbook.yml
+ 2062  ansible-playbook advanced-playbook.yml -u root --private-key ~/.ssh/id_rsa
+ 2063  nano advanced-playbook.yml
+ 2064  ansible-playbook advanced-playbook.yml -u root --private-key ~/.ssh/id_rsa
+ 2065  nano advanced-playbook.yml
+ 2066  ansible-playbook advanced-playbook.yml -u root --private-key ~/.ssh/id_rsa
+ 2067  nano advanced-playbook.yml
+ 2068  ansible-playbook advanced-playbook.yml -u root --private-key ~/.ssh/id_rsa
+ 2069  nano advanced-playbook.yml
+ 2070  ansible-playbook advanced-playbook.yml -u root --private-key ~/.ssh/id_rsa
+ 2071  nano advanced-playbook.yml
+ 2072  ansible-playbook advanced-playbook.yml -u root --private-key ~/.ssh/id_rsa
+ 2073  ls
+ 2074  mkdir playbook/
+ 2075  mv group_vars/ playbook/
+ 2076  mv host_vars/ playbook/
+ 2077  ls
+ 2078  ls playbook/group_vars/
+ 2079  ansible-playbook advanced-playbook.yml -u root --private-key ~/.ssh/id_rsa
+ 2080  mv playbook/group_vars/webservers playbook/group_vars/linode
+ 2081  ls playbook/group_vars/
+ 2082  mv playbook/host_vars/webservers playbook/host_vars/linode
+ 2083  ansible-playbook advanced-playbook.yml -u root --private-key ~/.ssh/id_rsa
+ 2084  mv playbook/group_vars/ ./group_vars
+ 2085  mv playbook/host_vars/ ./host_vars
+ 2086  rm -r playbook/
+ 2087  ls
+ 2088  ansible-playbook advanced-playbook.yml -u root --private-key ~/.ssh/id_rsa
+ 2089  nano advanced-playbook.yml 
+ 2090  ansible-playbook advanced-playbook.yml -u root --private-key ~/.ssh/id_rsa
+ 2091  ansible-playbook advanced-playbook.yml -u root --private-key ~/.ssh/id_rsa --ask-vault-pass
+ 2092  ls
+ 2093  ls ../
+ 2094  history > ../advancedplaybook_commands.txt 

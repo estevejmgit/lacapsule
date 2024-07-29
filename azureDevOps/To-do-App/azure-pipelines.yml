@@ -1,0 +1,8 @@
+trigger:
+- main
+
+pool:
+ name: 'python-sample-pool'
+
+steps:
+  - script: echo "HellO World !"

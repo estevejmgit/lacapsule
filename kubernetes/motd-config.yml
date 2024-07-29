@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: motd-config
+  labels:
+    app: motd
+data:
+  MESSAGE: "Hi i'm a simple container inside a pod"
+  OTHER_MESSAGE: "You can't see me!"

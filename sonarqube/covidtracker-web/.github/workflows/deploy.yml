@@ -1,0 +1,28 @@
+name: Déploiement CovidTracker
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  schedule:
+    - cron: "40 16 * * *" # UTC time (-1 en hiver et -2 en été) : 10min après vaccintracker
+jobs:
+  build-and-upload:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: git submodule update --init --recursive --depth 1 --remote --merge
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '2.7'
+          bundler-cache: true
+      - run: JEKYLL_ENV=production bundle exec jekyll b --trace
+      - uses: burnett01/rsync-deployments@4.1
+        with:
+          switches: -r --exclude='/files'
+          path: _site/
+          remote_path: ${{ secrets.DEPLOY_PATH }}
+          remote_host: ${{ secrets.DEPLOY_IP }}
+          remote_user: ubuntu
+          remote_key: ${{ secrets.DEPLOY_KEY }}
